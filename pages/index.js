@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js & HLS.js</title>
+        <title>milky way fiasco</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -17,24 +17,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=with-hls-js&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-        <div className="separator">.</div>
-        <a
-          href="https://mux.com?utm_source=create-next-app&utm_medium=with-hls-js&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Video by <img src="/mux.svg" alt="Mux Logo" className="logo" />
-        </a>
-      </footer>
+      <footer>milkywayfiasco productions &copy;2023</footer>
 
       <style jsx>{`
         .container {
