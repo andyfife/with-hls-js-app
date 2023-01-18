@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import VideoPlayer from '../components/video-player'
+import Head from 'next/head';
+import VideoPlayer from '../components/video-player';
 
 export default function Home() {
   return (
@@ -166,5 +166,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
