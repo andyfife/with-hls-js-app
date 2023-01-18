@@ -10,14 +10,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className="description">This is an example with HLS.js</p>
+        <h1 className="title">milky way fiasco</h1>
 
         <div className="grid">
-          <VideoPlayer src="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" />
+          <VideoPlayer src="https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/work/work/tonic_streaming.m3u8" />
         </div>
       </main>
 
