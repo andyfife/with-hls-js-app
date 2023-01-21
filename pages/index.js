@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className="title">milky way fiasco</h1>
 
         <div className="grid">
-          <VideoPlayer src="https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/work/work/tonic_streaming.m3u8" />
+          <VideoPlayer src="https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/videos/decision/decision_http.m3u8" />
         </div>
       </main>
 
