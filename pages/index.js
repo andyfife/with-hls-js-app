@@ -10,8 +10,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">milky way fiasco</h1>
-
         <div className="grid">
           <VideoPlayer src="https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/videos/decision/decision_http.m3u8" />
         </div>
