@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev -p 4002",
+    "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start -p 8080"
+    "start": "next start"
   },
   "dependencies": {
     "hls.js": "^0.13.2",

@@ -7,11 +7,15 @@ export default function Home() {
       <Head>
         <title>milky way fiasco</title>
         <link rel="icon" href="/favicon.ico" />
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+        </style>
       </Head>
 
       <main>
         <div className="grid">
-          <VideoPlayer src="https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/videos/decision/decision_http.m3u8" />
+          <VideoPlayer src="https://milkywayfiasco.sfo2.cdn.digitaloceanspaces.com/hls/decision/decision_http.m3u8" />
         </div>
       </main>
 
@@ -39,9 +43,10 @@ export default function Home() {
         }
 
         footer {
+          font-family: Kanit;
           width: 100%;
           height: 100px;
-          border-top: 1px solid #eaeaea;
+
           display: flex;
           justify-content: center;
           align-items: center;
